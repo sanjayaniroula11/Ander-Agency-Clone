@@ -15,6 +15,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
 import CTA from "./components/CTA";
+import Paragraph from "./components/Paragraph";
 
 import BackgroundLines from "./components/BackgroundLines";
 
@@ -25,12 +26,8 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <BackgroundLines />
-      <About />
-      <Services />
-      <Projects />
-      <CTA />
-      <Footer />
+      <Paragraph />
+    
     </>
   );
 }

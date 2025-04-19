@@ -43,7 +43,6 @@ const Hero = () => {
       ref={heroRef}
       className="relative h-screen w-full bg-black text-white overflow-visible"
     >
-      <BackgroundLines />
 
       <nav className="absolute top-0 left-0 w-full px-6 py-4 flex justify-between items-center z-20">
         <div className="text-lg font-bold uppercase tracking-wide">Ander</div>
